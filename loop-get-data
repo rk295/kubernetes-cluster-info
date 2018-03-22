@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+sleepSeconds=300
+
+while(true); do
+    echo "Fetching kube pod data"
+    /usr/local/bin/get-data
+    echo "Sleeping for $sleepSeconds"
+    sleep "$sleepSeconds"
+done

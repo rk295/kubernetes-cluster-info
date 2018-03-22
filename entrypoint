@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+
+/usr/local/bin/loop-get-data &
+
+nginx -g "daemon off;"
